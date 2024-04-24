@@ -1,0 +1,14 @@
+# Byte-compiled
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+poetry.lock
+.docker_env
+logs
+# IDE
+.vscode/
+.idea/

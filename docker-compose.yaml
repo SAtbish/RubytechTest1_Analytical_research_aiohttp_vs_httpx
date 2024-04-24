@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  aiohttp_vs_httpx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    command: ["python", "main.py"]
